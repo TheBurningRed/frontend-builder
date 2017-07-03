@@ -1,0 +1,21 @@
+{
+  "name": "frontendbuilder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Auto deployment tool for JS web applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MayorovArtem@bitbucket.org/Nullgr/frontendbuilder.git"
+  },
+  "author": "Mayorov Artem <ma@nullgr.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Nullgr/frontendbuilder#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "simple-git": "^1.73.0"
+  }
+}
