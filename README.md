@@ -1,4 +1,4 @@
-# Node AD Tool
+# Node Autodeployment Tool
 *Auto deployment tool for JS web applications*
 
 ## Instructions
@@ -11,6 +11,7 @@
 - Clone your project from repository into desired folder
 - Clone **Node AD Tool** into any another folder
 - Setup `deployconfig.json` file and specify params
+
     - `repo` - link to your repository
     - `workingDirPath` - directory of your project's local repository on remote server
     - `testBranch` - name of repository branch for test build **(TODO)**
@@ -26,5 +27,4 @@
 
 TODO
 ---
-1. Develop prompt for initial startup that will collect configs and automatically generate `deployconfig.json`
-2. Develop automatic repository cloning on first startup
+1. Develop automatic repository cloning on first startup
